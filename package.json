@@ -1,0 +1,27 @@
+{
+  "name": "simple-qrcode",
+  "version": "0.0.1",
+  "description": "Simple QR Code generator",
+  "main": "./bin/app.js",
+  "bin": {
+    "sqrc": "./bin/app.js"
+  },
+  "preferGlobal": true,
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "qrcode",
+    "simple",
+    "node"
+  ],
+  "author": "davidalves1 <alves.david@outlook.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/davidalves1/simple-qrcode/issues"
+  },
+  "dependencies": {
+    "meow": "^5.0.0",
+    "qrcode-terminal": "^0.12.0"
+  }
+}
