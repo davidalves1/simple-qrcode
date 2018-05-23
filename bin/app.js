@@ -5,7 +5,7 @@ const meow = require('meow');
 
 const cli = meow(`
   Modo de uso:
-    $ sqrc <texto>
+    $ sqrc <text>
   Exemplo:
     $ sqrc It is awesome!
 `, {});
@@ -13,7 +13,7 @@ const cli = meow(`
 const text = cli.input.join(' ');
 
 if (!text) {
-  console.log('\n\tNenhum texto foi informado. :(\n')
+  console.log('\n\tNo text was entered. :(\n')
   process.exit(1);
 }
 

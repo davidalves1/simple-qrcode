@@ -11,7 +11,7 @@ $ npm install -g simple-qrcode
 
 ```shell
 $ sqrc <text>
-$ tempo Hello!
+$ sqrc Hello!
 ```
 
 ### Contibution
