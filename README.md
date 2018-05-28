@@ -1,6 +1,8 @@
 # simple-qrcode
 A simple QR Code generator
 
+[![https://nodei.co/npm/simple-qrcode.png?downloads=true&downloadRank=true&stars=true](https://nodei.co/npm/simple-qrcode.png?downloads=true&downloadRank=true&stars=true)](https://www.npmjs.com/package/simple-qrcode)
+
 ### Installation
 
 ```shell
